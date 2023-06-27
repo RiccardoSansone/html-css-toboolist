@@ -17,6 +17,16 @@
 /* /utility */
 
 /* header */
+body{
+    background-color: var(--backg-page);
+}
+
+
+.header{
+    background-color: white;
+    
+}
+
 #logo{
     height: 4rem;
     margin-left: 2rem;
@@ -27,17 +37,25 @@
     display: inline-block;
     font-size: 3rem;
     font-family: Arial Black;
+    padding-top: 0.5rem;
 }
 /* /header */
 
 /* main */
 .main{
-   background-color: var(--backg-page);
+    margin:60px auto 0;
+    width: 900px;
+  
 }
 
-.header{
+.main-header{
+    padding: 40px auto;
     background-color: white;
+    padding: 15px;
+    border-bottom: 2px solid #F5F5F5;
+    padding-left: 40px;
 }
+
 
 .button_blue{
     background-color:var(--color-blu);
@@ -52,36 +70,108 @@
 
 
 .button_gray{
-   /*  background-color:white; */
-   /*  color:gray; */
-    text-decoration:var(--backg-page);
-    border-radius: 10%;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 10px;
-    border-bottom: 1px;
-    border-color: var(--backg-page);
+   background-color: #F5F5F5;
+   color: gray;
+   border-radius: 10%;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   padding-left: 8px;
+   padding-right: 10px;
+   border-color: 1px solid #F5F5F5;
 }
-
+/* fine parte principale con i bottoni */
 .list{
     background-color: white;
+    padding-bottom: 50px;
 }
 
 .title_list{
     font-size: 20px;
     font-family: Arial Black;
-    display: block;
+    padding: 10px;
+    padding-left: 40px;
+    padding-top: 40px;
+    
+}
+
+.list_member{
+    font-size: 15px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    font-family: Arial;
+}
+
+.av{
+    color: greenyellow;
+}
+
+.ax{
+    color: red;
 }
 
 .botton1{
     background-color: var(--color-blu);
     border: 0;
-    border-radius: 30%;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 3px;
-    padding-right: 6px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
 }
 
+.botton2{
+    background-color: var(--color-purple);
+    border: 0;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+.botton3{
+    background-color: var(--color-green);
+    border: 0;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+.botton4{
+    background-color: var(--color-orange);
+    border: 0;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+.botton5{
+    background-color: var(--color-pink);
+    border: 0;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+.botton6{
+    background-color: var(--color-pear);
+    border: 0;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
 /*  */
