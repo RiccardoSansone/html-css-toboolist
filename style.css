@@ -8,6 +8,11 @@
 :root{
     --backg-page:#F5F5F5;
     --color-blu:#4682B4;
+    --color-purple:#7B68EE;
+    --color-green:#3CB371;
+    --color-orange:#F4A460;
+    --color-pink:#DDA0DD;
+    --color-pear:#9ACD32;
 }
 /* /utility */
 
@@ -27,7 +32,11 @@
 
 /* main */
 .main{
-   /*  background-color: var(--backg-page); */
+   background-color: var(--backg-page);
+}
+
+.header{
+    background-color: white;
 }
 
 .button_blue{
@@ -54,7 +63,25 @@
     border-bottom: 1px;
     border-color: var(--backg-page);
 }
+
+.list{
+    background-color: white;
+}
+
 .title_list{
     font-size: 20px;
     font-family: Arial Black;
+    display: block;
 }
+
+.botton1{
+    background-color: var(--color-blu);
+    border: 0;
+    border-radius: 30%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 6px;
+}
+
+/*  */
