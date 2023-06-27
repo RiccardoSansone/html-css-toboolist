@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utility */
+:root{
+    --backg-page:#F5F5F5;
+    --color-blu:#4682B4;
+}
+/* /utility */
+
+/* header */
+#logo{
+    height: 4rem;
+    margin-left: 2rem;
+    vertical-align: middle;
+}
+
+#title{
+    display: inline-block;
+    font-size: 3rem;
+    font-family: Arial Black;
+}
+/* /header */
+
+/* main */
+.main{
+   /*  background-color: var(--backg-page); */
+}
+
+.button_blue{
+    background-color:var(--color-blu);
+    color: white;
+    border-radius: 10%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 10px;
+    border: 0;
+}
+
+
+.button_gray{
+   /*  background-color:white; */
+   /*  color:gray; */
+    text-decoration:var(--backg-page);
+    border-radius: 10%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 10px;
+    border-bottom: 1px;
+    border-color: var(--backg-page);
+}
+.title_list{
+    font-size: 20px;
+    font-family: Arial Black;
+}
