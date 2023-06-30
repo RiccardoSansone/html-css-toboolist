@@ -31,6 +31,7 @@ body{
     height: 4rem;
     margin-left: 2rem;
     vertical-align: middle;
+    margin-bottom: 1.2rem;
 }
 
 #title{
@@ -99,6 +100,20 @@ body{
     padding-left: 40px;
     padding-bottom: 10px;
     font-family: Arial;
+}
+
+.circlev{
+    border: 1.5px solid black;
+    border-radius: 50%;
+    padding: 6px;
+    border-color: greenyellow;
+}
+
+.circlex{
+    border: 1.5px solid black;
+    border-radius: 50%;
+    padding: 6px;
+    border-color: red;
 }
 
 .av{
@@ -173,5 +188,9 @@ body{
     padding-left: 10px;
     padding-right: 10px;
     color: white;
+}
+
+footer{
+    text-align: center;
 }
 /*  */
