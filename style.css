@@ -124,7 +124,7 @@ body{
     color: red;
 }
 
-.botton1{
+.button1{
     background-color: var(--color-blu);
     border: 0;
     border-radius: 10px;
@@ -135,7 +135,7 @@ body{
     color: white;
 }
 
-.botton2{
+.button2{
     background-color: var(--color-purple);
     border: 0;
     border-radius: 10px;
@@ -146,7 +146,7 @@ body{
     color: white;
 }
 
-.botton3{
+.button3{
     background-color: var(--color-green);
     border: 0;
     border-radius: 10px;
@@ -157,7 +157,7 @@ body{
     color: white;
 }
 
-.botton4{
+.button4{
     background-color: var(--color-orange);
     border: 0;
     border-radius: 10px;
@@ -168,7 +168,7 @@ body{
     color: white;
 }
 
-.botton5{
+.button5{
     background-color: var(--color-pink);
     border: 0;
     border-radius: 10px;
@@ -179,7 +179,7 @@ body{
     color: white;
 }
 
-.botton6{
+.button6{
     background-color: var(--color-pear);
     border: 0;
     border-radius: 10px;
@@ -190,7 +190,5 @@ body{
     color: white;
 }
 
-footer{
-    text-align: center;
-}
+
 /*  */
